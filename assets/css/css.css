@@ -1,0 +1,137 @@
+#light-weight-wa-chatting-position{
+    position: fixed;
+    z-index: 2147483647;
+}
+
+.light-weight-wa-chatting-whatsapp-bottom-right-hide-at-start {
+    right: -100px;
+    bottom: 100px;
+    display: none;
+}
+
+.light-weight-wa-chatting-whatsapp-bottom-right-animation-start {
+    right: -100px;
+    bottom: 100px;
+    transition: all ease-out 1s;
+}
+
+.light-weight-wa-chatting-whatsapp-bottom-right-show-at-end {
+    right: 100px;
+    display: block;
+}
+
+.light-weight-wa-chatting-whatsapp-bottom-left-hide-at-start {
+    left: -100px;
+    bottom: 100px;
+    display: none;
+}
+
+.light-weight-wa-chatting-whatsapp-bottom-left-animation-start {
+    left: -100px;
+    bottom: 100px;
+    transition: all ease-out 1s;
+}
+
+.light-weight-wa-chatting-whatsapp-bottom-left-show-at-end {
+    left: 25px;
+    bottom: 100px;
+    display: block;
+}
+
+.light-weight-wa-chatting-whatsapp-bottom-center-hide-at-start {
+    left: 100%;
+    margin-left: calc(-50% - 100px);
+    bottom: 100px;
+    display: none;
+}
+
+.light-weight-wa-chatting-whatsapp-bottom-center-animation-start {
+    left: 100%;
+    margin-left: calc(-50% - 100px);
+    bottom: -100px;
+    transition: all ease-out 1s;
+}
+
+.light-weight-wa-chatting-whatsapp-bottom-center-show-at-end {
+    left: 100%;
+    margin-left: calc(-50% - 100px);
+    bottom: 100px;
+    display: block;
+}
+
+.light-weight-wa-chatting-whatsapp-top-right-hide-at-start {
+    right: -100px;
+    top: 50px;
+    display: none;
+}
+
+.light-weight-wa-chatting-whatsapp-top-right-animation-start {
+    right: -100px;
+    top: 50px;
+    transition: all ease-out 1s;
+}
+
+.light-weight-wa-chatting-whatsapp-top-right-show-at-end {
+    right: 100px;
+    top: 50px;
+    display: block;
+}
+
+.light-weight-wa-chatting-whatsapp-top-left-hide-at-start {
+    left: 100px;
+    top: 50px;
+    display: none;
+}
+
+.light-weight-wa-chatting-whatsapp-top-left-animation-start {
+    left: -100px;
+    top: 50px;
+    transition: all ease-out 1s;
+}
+
+.light-weight-wa-chatting-whatsapp-top-left-show-at-end {
+    left: 25px;
+    top: 50px;
+    display: block;
+}
+
+.light-weight-wa-chatting-whatsapp-top-center-hide-at-start {
+    left: 100%;
+    margin-left: calc(-50% - 100px);
+    top: 100px;
+    display: none;
+}
+
+.light-weight-wa-chatting-whatsapp-top-center-animation-start {
+    left: 100%;
+    margin-left: calc(-50% - 100px);
+    top: -100px;
+    transition: all ease-out 1s;
+}
+
+.light-weight-wa-chatting-whatsapp-top-center-show-at-end {
+    left: 100%;
+    margin-left: calc(-50% - 100px);
+    top: 50px;
+    display: block;
+}
+
+.green-bg-white-icon {
+    position: fixed;
+    width: 72px;
+    height: 72px;
+    background-image: url( "../img/green-wa-icon.svg" );
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 100px;
+}
+
+.white-bg-green-icon {
+    position: fixed;
+    width: 72px;
+    height: 72px;
+    background-image: url( "../img/white-wa-icon.svg" );
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 100px;
+}
